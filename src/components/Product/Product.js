@@ -8,11 +8,11 @@ const Product = (props) => {
   const { img, name, price, seller, ratings } = product;
   return (
     <div className="col-md-4">
-      <div class="card h-100">
-        <img src={img} class="card-img-top" alt="products img here" />
-        <div class="card-body">
-          <h5 class="card-title">{name}</h5>
-          <p class="card-text">Price: ${price}</p>
+      <div className="card h-100">
+        <img src={img} className="card-img-top" alt="products img here" />
+        <div className="card-body">
+          <h5 className="card-title">{name}</h5>
+          <p className="card-text">Price: ${price}</p>
           <small>Manufacturer: {seller}</small> <br />
           <small>Rating: {ratings} star</small>
         </div>
